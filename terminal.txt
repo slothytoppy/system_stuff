@@ -1,0 +1,4 @@
+kitty theme:Adwaita Dark
+oh-my-posh:Default
+oh-my-zsh:Default
+
