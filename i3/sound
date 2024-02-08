@@ -1,0 +1,2 @@
+#!/bin/bash
+[[ $(pactl get-sink-volume @DEFAULT_SINK@ | grep -i 'volume' | awk '{gsub(/%/, "", $5); print $5}') -lt 60 ]] && pactl set-sink-volume @DEFAULT_SINK@ +10%
